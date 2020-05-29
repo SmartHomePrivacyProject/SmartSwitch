@@ -6,7 +6,7 @@
   
   `method` the feature selection method we want to use in SmartSwich.
   `b` the bin size.
-  `r` the number of features we want to add higher noise
+  `r` the number of features we want to add higher level of noise
   `eps_heavy` the value of `epsilon` for relevant features.
   `eps_light` the value of `epsilon` for irrelevant features.
   
