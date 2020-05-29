@@ -14,7 +14,7 @@
   
 -```Python3 loadDriver.py [list_path] [ip] [timeout] [iteration]```-
 
-2. `autocollection_pcap2csv.py` is used to transfer pcap files collected via Wireshark to csv files.
+2.`autocollection_pcap2csv.py` is used to transfer pcap files collected via Wireshark to csv files.
 
 -```python3 autocollection_pcap2csv.py [pcap_path] [echo_ip] [csv_path]```-
 
