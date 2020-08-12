@@ -20,7 +20,7 @@ We investigated 100 classes (i.e., Youtube videos) and 200 traffic traces per cl
 
 https://mailuc-my.sharepoint.com/:f:/g/personal/wang2ba_ucmail_uc_edu/EoTxR4S42eJDk0_tbmLyLbQBRYT2zoeWSIc3ISUPSN1THg?e=kYE8rP
 
-## Nerual Networks
+## Neural Networks
 
 We leveraged a Convolutional Neural Network to infer which video it is based on the traffic pattern. The CNN includes 11 layers and achieved over 90% accuracy in the attack. Details of the structure and tuned hyperparameters can be found in our paper. 
 
