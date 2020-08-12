@@ -16,10 +16,13 @@ The `defense` directory contains the defense code for generating obfuscated stre
 
 ## Dataset
 
-The original traffic data (i.e., non-defended traffic data), defended data and the list of YouTube videos we used in this study can be found below: 
+We investigated 100 classes (i.e., Youtube videos) and 200 traffic traces per class in this research. The original traffic data (i.e., non-defended traffic data), defended data and the list of YouTube videos we used in this study can be found below: 
 
 https://mailuc-my.sharepoint.com/:f:/g/personal/wang2ba_ucmail_uc_edu/EoTxR4S42eJDk0_tbmLyLbQBRYT2zoeWSIc3ISUPSN1THg?e=kYE8rP
 
+## Nerual Networks
+
+We leveraged a Convolutional Neural Network to infer which video it is based on the traffic pattern. The CNN includes 11 layers and achieved over 90% accuracy in the attack. Details of the structure and tuned hyperparameters can be found in our paper. 
 
 ## Citation
 
