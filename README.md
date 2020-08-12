@@ -1,6 +1,6 @@
 # SmartSwitch
 
-This repository contains the source code and data for Stream Fingerprinting using nerual networks. The attack is an encrypted traffic analysis attack that allows a passive adversary to infer which YouTube video a user watchers by sniffing encrypted traffic between a user and the server. 
+This repository contains the source code and data for Stream Fingerprinting using nerual networks. The attack is an encrypted traffic analysis attack that allows a passive adversary to infer which YouTube video a user watches by sniffing encrypted traffic between a user and the server. 
 
 **The dataset and code are for research purposes only**. The results of this study are published in the following paper: 
 
