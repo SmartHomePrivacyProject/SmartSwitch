@@ -1,0 +1,18 @@
+authorName: default
+experimentName: cnn_video
+localConfig:
+  useActiveGpu: true
+maxExecDuration: 100h
+maxTrialNum: 100
+searchSpacePath: search_space.json
+trainingServicePlatform: local
+trial:
+  codeDir: .
+  command: python3 cnn_model_selected.py mi 0.25 8.0 0.0005 0.05
+  gpuNum: 1
+trialConcurrency: 1
+tuner:
+  builtinTunerName: TPE
+  classArgs:
+    optimize_mode: maximize
+useAnnotation: false

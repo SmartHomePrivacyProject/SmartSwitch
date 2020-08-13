@@ -1,0 +1,260 @@
+{
+    "optimizer": {
+        "_type": "choice",
+        "_value": [
+            "Adam",
+            "SGD",
+            "Adamax",
+            "Adadelta"
+        ]
+    },
+    "learning_rate": {
+        "_type": "choice",
+        "_value": [
+            0.001,
+            0.002,
+            0.003,
+            0.004,
+            0.005,
+            0.006,
+            0.007,
+            0.008,
+            0.009,
+            0.01
+        ]
+    },
+    "activation1": {
+        "_type": "choice",
+        "_value": [
+            "softsign",
+            "tanh",
+            "elu",
+            "selu",
+            "relu"
+        ]
+    },
+    "activation2": {
+        "_type": "choice",
+        "_value": [
+            "softsign",
+            "tanh",
+            "elu",
+            "selu",
+            "relu"
+        ]
+    },
+    "activation3": {
+        "_type": "choice",
+        "_value": [
+            "softsign",
+            "tanh",
+            "elu",
+            "selu",
+            "relu"
+        ]
+    },
+    "activation4": {
+        "_type": "choice",
+        "_value": [
+            "softsign",
+            "tanh",
+            "elu",
+            "selu",
+            "relu"
+        ]
+    },
+    "drop_rate1": {
+        "_type": "choice",
+        "_value": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+        ]
+    },
+    "drop_rate2": {
+        "_type": "choice",
+        "_value": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+        ]
+    },
+    "drop_rate3": {
+        "_type": "choice",
+        "_value": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+        ]
+    },
+    "drop_rate4": {
+        "_type": "choice",
+        "_value": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+        ]
+    },
+    "decay": {
+        "_type": "uniform",
+        "_value": [
+            0.0,
+            0.9
+        ]
+    },
+    "batch_size": {
+        "_type": "choice",
+        "_value": [
+            4,
+            8,
+            16,
+            32
+        ]
+    },
+    "data_dim": {
+        "_type": "choice",
+        "_value": [
+            500
+        ]
+    },
+    "conv1": {
+        "_type": "choice",
+        "_value": [
+            16,
+            32,
+            64,128,8
+        ]
+    },
+    "conv2": {
+        "_type": "choice",
+        "_value": [
+            16,
+            32,
+            64,128,8
+        ]
+    },
+    "conv3": {
+        "_type": "choice",
+        "_value": [
+            16,
+            32,
+            64,128,8
+        ]
+    },
+    "conv4": {
+        "_type": "choice",
+        "_value": [
+            16,
+            32,
+            64,128,8
+        ]
+    },
+    "pool1": {
+        "_type": "choice",
+        "_value": [
+            1,
+            2,
+            3,4,5
+        ]
+    },
+    "pool2": {
+        "_type": "choice",
+        "_value": [
+            1,
+            2,
+            3,4,5
+        ]
+    },
+    "pool3": {
+        "_type": "choice",
+        "_value": [
+            1,
+            2,
+            3,4,5
+        ]
+    },
+    "pool4": {
+        "_type": "choice",
+        "_value": [
+            1,
+            2,
+            3,4,5
+        ]
+    },
+    "kernel_size1": {
+        "_type": "choice",
+        "_value": [
+            8,
+            10,
+            12,
+            14,
+            16,18,20
+        ]
+    },
+    "kernel_size2": {
+        "_type": "choice",
+        "_value": [
+            8,
+            10,
+            12,
+            14,
+            16,18,20
+        ]
+    },
+    "kernel_size3": {
+        "_type": "choice",
+        "_value": [
+            
+            8,
+            10,
+            12,
+            14,
+            16,18,20
+        ]
+    },
+    "kernel_size4": {
+        "_type": "choice",
+        "_value": [
+        
+            8,
+            10,
+            12,
+            14,
+            16,18,20
+        ]
+    },
+    "dense1": {
+        "_type": "choice",
+        "_value": [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            160,
+            170,
+            180,
+            190,
+            200
+        ]
+    },
+    "dense1_act": {
+        "_type": "choice",
+        "_value": [
+            "softsign",
+            "tanh",
+            "elu",
+            "selu",
+            "relu"
+        ]
+    }
+}
