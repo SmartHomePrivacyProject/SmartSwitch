@@ -16,9 +16,9 @@ The `defense` directory contains the defense code for generating obfuscated stre
 
 ## Dataset
 
-We investigated 100 classes (i.e., Youtube videos) and 200 traffic traces per class in this research. The original traffic data (i.e., non-defended traffic data), defended data and the list of YouTube videos we used in this study can be found below (**last modified: Sept, 2021**): 
+We investigated 100 classes (i.e., Youtube videos) and 200 traffic traces per class in this research. The original traffic data (i.e., non-defended traffic data), defended data and the list of YouTube videos we used in this study can be found below (**last modified: May, 2022**): 
 
-https://mailuc-my.sharepoint.com/:f:/g/personal/wang2ba_ucmail_uc_edu/EoTxR4S42eJDk0_tbmLyLbQBRYT2zoeWSIc3ISUPSN1THg?e=uErNwo
+https://mailuc-my.sharepoint.com/:f:/g/personal/wang2ba_ucmail_uc_edu/EoTxR4S42eJDk0_tbmLyLbQBRYT2zoeWSIc3ISUPSN1THg?e=QzkwPD 
 
 **Note:** the above link needs to be updated every 6 months due to certain settings of OneDrive. If you find the link is expired and you cannot access the data, please feel free to email us (boyang.wang@uc.edu). We will be update the link as soon as we can. Thanks! 
 
